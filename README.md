@@ -15,6 +15,6 @@ This is set up to demo ScrollablePositionedListView glitchiness. Uncomment retur
 
 In initState() you can play with the timer to control the rate at which the message count is updated and how many increments are emitted at once. (Simulates message flow coming in.)
 
-You can also chnage the number of initial messages in the list:
+You can also change the number of initial messages in the list:
 
   int currentItemCount = 0;

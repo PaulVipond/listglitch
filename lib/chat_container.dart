@@ -112,7 +112,7 @@ print("ListBuild!!!");
       if (!callbackScheduled) {
         callbackScheduled = true;
         WidgetsBinding.instance.addPostFrameCallback((_) {
-          print('ScrollConfirmed AnimatedListView: ${snapshot.data}');
+          print('ScrollConfirmed AnimatedListView: ${snapshot.data}, item: ${snapshot.data - 1}');
           if (isFirstDisplay) {
             _scrollController.jumpTo(
               index: snapshot.data - 1
